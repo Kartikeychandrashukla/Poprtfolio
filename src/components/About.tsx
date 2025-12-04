@@ -59,18 +59,15 @@ const About: React.FC = () => {
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              {/* Profile Image Placeholder */}
+              {/* Profile Image */}
               <div className="relative mb-8">
                 <div className="w-full aspect-square max-w-md mx-auto rounded-2xl bg-gradient-to-br from-accent/20 to-blue-500/20 p-1">
-                  <div className="w-full h-full rounded-2xl dark:bg-primary-light light:bg-white flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-accent to-blue-500 flex items-center justify-center text-6xl font-bold text-primary">
-                        KCS
-                      </div>
-                      <p className="mt-6 text-slate-400 dark:text-slate-400 light:text-slate-600">
-                        Professional Photo Placeholder
-                      </p>
-                    </div>
+                  <div className="w-full h-full rounded-2xl overflow-hidden dark:bg-primary-light light:bg-white">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/profile pic.jpg`}
+                      alt="Kartikey Chandra Shukla"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -135,15 +132,15 @@ const About: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Download Resume Button */}
+                {/* View Resume Button */}
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={() => window.open('#', '_blank')}
+                  onClick={() => window.open('https://drive.google.com/file/d/1P_Lu1IUNHgn869ncCc38qNMR8yxuSjCb/view?usp=sharing', '_blank')}
                   className="mt-8 px-8 py-4 bg-accent text-primary rounded-lg font-semibold flex items-center gap-2 hover:shadow-glow transition-all duration-300 btn-glow"
                 >
                   <FiDownload />
-                  Download Resume
+                  View Resume
                 </motion.button>
               </div>
             </motion.div>
