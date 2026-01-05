@@ -22,13 +22,14 @@ export const experiences: Experience[] = [
     id: 'exp-1',
     company: 'SniperThink AI Sales Platform',
     role: 'Frontend Developer',
-    period: 'Aug 2025 – Present',
+    period: 'Aug 2025 – October 2025',
     location: 'Remote',
     achievements: [
       'Architected complex carousel system with React.js/Next.js and TypeScript, showcasing 6 AI features with 100% smooth infinite scrolling, reducing user interaction time by 40%',
       'Built responsive component architecture (TwoPanelChat, LeadLifecycleTimeline) using Tailwind CSS, achieving 95% mobile compatibility',
     ],
     techStack: ['React.js', 'Next.js', 'TypeScript', 'Tailwind CSS'],
+    link: 'https://www.sniperthink.com/aiagents', // Add this line
   },
 ];
 

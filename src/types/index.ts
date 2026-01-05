@@ -19,6 +19,7 @@ export interface Experience {
   location: string;
   achievements: string[];
   techStack: string[];
+  link?: string;
 }
 
 export interface Project {

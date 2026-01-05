@@ -116,6 +116,18 @@ const Experience: React.FC = () => {
                       ))}
                     </div>
                   </div>
+                  {exp.link && (
+  <div className="mt-6">
+    <a
+      href={exp.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 text-accent font-semibold hover:underline"
+    >
+      View my work →
+    </a>
+  </div>
+)}
                 </motion.div>
               </motion.div>
             ))}
