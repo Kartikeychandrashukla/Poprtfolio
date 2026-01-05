@@ -5,7 +5,7 @@ export const personalInfo: PersonalInfo = {
   role: 'Frontend Developer',
   tagline: 'Frontend Developer | React.js Specialist | Problem Solver',
   subtitle: 'Building scalable web applications with modern technologies',
-  email: 'kartikeychandrashukla2022@vitbhopal.ac.in',
+  email: 'kartikey.picc@gmail.com',
   phone: '+91-9555344380',
   location: 'Lucknow, Uttar Pradesh, India',
   linkedin: 'https://linkedin.com/in/kartikey-chandra-shukla',
