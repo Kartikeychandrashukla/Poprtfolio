@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FiDownload } from 'react-icons/fi';
-import { SiReact, SiNextdotjs, SiTypescript, SiNodedotjs, SiMongodb, SiTailwindcss } from 'react-icons/si';
+import { SiReact, SiNextdotjs, SiTypescript, SiNodedotjs, SiMongodb, SiTailwindcss, SiDotnet } from 'react-icons/si';
 import { aboutMe } from '../constants/personalInfo';
 import { useAnimatedCounter } from '../hooks/useAnimatedCounter';
 
@@ -18,10 +18,10 @@ const About: React.FC = () => {
 
   const techIcons = [
     { Icon: SiReact, name: 'React', color: '#61DAFB' },
-    { Icon: SiNextdotjs, name: 'Next.js', color: '#000000' },
     { Icon: SiTypescript, name: 'TypeScript', color: '#3178C6' },
     { Icon: SiNodedotjs, name: 'Node.js', color: '#339933' },
     { Icon: SiMongodb, name: 'MongoDB', color: '#47A248' },
+    { Icon: SiDotnet, name: '.NET Core', color: '#512BD4' },
     { Icon: SiTailwindcss, name: 'Tailwind', color: '#06B6D4' },
   ];
 
@@ -132,16 +132,7 @@ const About: React.FC = () => {
                   </div>
                 </div>
 
-                {/* View Resume Button */}
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  onClick={() => window.open('https://drive.google.com/file/d/1P_Lu1IUNHgn869ncCc38qNMR8yxuSjCb/view?usp=sharing', '_blank')}
-                  className="mt-8 px-8 py-4 bg-accent text-primary rounded-lg font-semibold flex items-center gap-2 hover:shadow-glow transition-all duration-300 btn-glow"
-                >
-                  <FiDownload />
-                  View Resume
-                </motion.button>
+             
               </div>
             </motion.div>
           </div>

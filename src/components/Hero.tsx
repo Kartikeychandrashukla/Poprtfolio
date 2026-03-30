@@ -125,7 +125,7 @@ const Hero: React.FC = () => {
               <FiArrowRight className="group-hover:translate-x-1 transition-transform" />
             </button>
             <button
-              onClick={() => window.open('https://drive.google.com/file/d/1P_Lu1IUNHgn869ncCc38qNMR8yxuSjCb/view?usp=sharing', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/18Rr_bHH0QQOrdKaR9uuZJ2lPStfTD53j/view?usp=sharing', '_blank')}
               className="px-8 py-4 border-2 border-accent text-accent rounded-lg font-semibold flex items-center gap-2 hover:bg-accent hover:text-primary transition-all duration-300"
             >
               <FiDownload />
