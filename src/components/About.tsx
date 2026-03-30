@@ -1,8 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FiDownload } from 'react-icons/fi';
-import { SiReact, SiNextdotjs, SiTypescript, SiNodedotjs, SiMongodb, SiTailwindcss, SiDotnet } from 'react-icons/si';
+import { SiReact, SiTypescript, SiNodedotjs, SiMongodb, SiTailwindcss, SiDotnet } from 'react-icons/si';
 import { aboutMe } from '../constants/personalInfo';
 import { useAnimatedCounter } from '../hooks/useAnimatedCounter';
 
